@@ -1,0 +1,15 @@
+.box{
+     width: 650;
+     height:350;
+     /* background-color: aqua; */
+     border-radius: 2%;
+     padding: 10px;
+     box-shadow: 20;
+}
+@media only screen and (min-width: 650px) {
+    .box {
+      width: 550px;
+      height: 150px;
+      /* background-color: rgb(185, 189, 123); */
+    }
+  }
